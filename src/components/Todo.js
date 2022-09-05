@@ -27,6 +27,10 @@ export default function Todo({todo, toggleTodo, deleteTodo, saveEditedTodo }) {
     saveEditedTodo(todo.id, todoEditedNameRef.current.value);
   }
 
+  function cancelSaveTodo() {
+    setIsBeingEdited(false);
+  }
+
   if(isBeingEdited){
     return (
       <section>
@@ -48,6 +52,7 @@ export default function Todo({todo, toggleTodo, deleteTodo, saveEditedTodo }) {
         <Button
               variant="contained"
               sx={{ mt: 3, mb: 2, ml:3}}
+              onClick={cancelSaveTodo}
             >
               Cancel
         </Button>
