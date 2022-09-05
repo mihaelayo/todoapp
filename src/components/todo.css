@@ -1,0 +1,11 @@
+.todo-box {
+    width: 30vw;
+    margin-top: 2vh;
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.todo-label {
+    margin-right: auto;
+}
