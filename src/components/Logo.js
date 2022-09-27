@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo_impactly.svg'
+import logo from '../assets/visma-vector-logo.svg'
 import { Link } from 'react-router-dom'
 
 export default function Logo() {

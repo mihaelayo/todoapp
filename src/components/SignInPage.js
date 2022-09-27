@@ -36,7 +36,7 @@ export default function SignIn() {
           }}
         >
           <Typography component="h1" variant="h5">
-          Sign in with your username to use the Impactly ToDo app
+          Sign in with your username to use the ToDo app
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 2 }}>
             <TextField
